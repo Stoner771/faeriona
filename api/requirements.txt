@@ -1,0 +1,69 @@
+# Core FastAPI and server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Database and ORM
+sqlalchemy>=2.0.23
+pymysql>=1.1.0
+psycopg2-binary>=2.9.9  # PostgreSQL support
+
+# Security and authentication
+cryptography>=41.0.7
+PyJWT>=2.8.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.1.1
+python-jose[cryptography]>=3.3.0
+
+# Data validation and serialization
+pydantic>=2.9.0
+pydantic-settings>=2.1.0
+pydantic[email]>=2.9.0
+
+# HTTP client for webhooks
+httpx>=0.25.2
+
+# Encryption
+pycryptodome>=3.19.0
+
+# Logging and monitoring
+python-json-logger>=2.0.7
+loguru>=0.7.2
+
+# Task queue and background jobs (optional)
+celery>=5.3.4
+redis>=5.0.1
+
+# Email support (optional)
+aiosmtplib>=3.0.1
+email-validator>=2.1.0
+
+# Rate limiting
+slowapi>=0.1.9
+
+# CORS and security headers
+fastapi-cors>=0.0.6
+
+# Date and time utilities
+python-dateutil>=2.8.2
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Production server (alternative to uvicorn)
+gunicorn>=21.2.0
+
+# Testing (development)
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+httpx>=0.25.2
+
+# Code quality (development)
+black>=23.12.0
+flake8>=6.1.0
+isort>=5.13.2
+mypy>=1.7.1
+
+# API Documentation
+mkdocs>=1.5.3
+mkdocs-material>=9.5.3
